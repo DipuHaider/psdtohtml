@@ -294,7 +294,6 @@ nav.navbar.navbar-expand-lg.navbar-light {
 	text-transform: capitalize;
 	padding-bottom: 30px;
 	font-size: 28px;
-
 }
 .get-content ul{
 	list-style: none;
@@ -304,9 +303,6 @@ nav.navbar.navbar-expand-lg.navbar-light {
 	justify-content: space-between;
 	margin: auto;
 	padding-bottom: 30px;
-}
-.get-content ul li{
-	
 }
 .get-content ul li a{
 	border: 1px solid #fff;
@@ -320,9 +316,6 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .get-content ul li a i{
 	font-size: 16px;
 }
-.get-content p{
-	
-}
 .get-content input{
 	background: #666666;
 	color: #fff!important;
@@ -330,11 +323,18 @@ nav.navbar.navbar-expand-lg.navbar-light {
 	border-radius: 0px;
     padding: 20px;
 }
+.get-content input:active{
+	background: #666666;
+	color: #fff!important;
+}
+.get-content input:focus{
+	background: #666666;
+	color: #fff!important;
+}
 .get-content input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #fff;
     opacity: 1; /* Firefox */
 }
-
 .get-content input:-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #fff;
 }
