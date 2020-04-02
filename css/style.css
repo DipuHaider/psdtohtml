@@ -280,3 +280,87 @@ nav.navbar.navbar-expand-lg.navbar-light {
    font-size: 14px;
 }
 /* Contact End */
+
+/* Get In Touch Start */
+.getintouch{
+	background-color: #333333;
+	padding: 50px 0;
+}
+.get-content{
+	color: #fff;
+	text-align: center;
+}
+.get-content h1{
+	text-transform: capitalize;
+	padding-bottom: 30px;
+	font-size: 28px;
+
+}
+.get-content ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	width: 25%;
+	justify-content: space-between;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.get-content ul li{
+	
+}
+.get-content ul li a{
+	border: 1px solid #fff;
+	padding: 6px 8px;
+	color: #fff;
+	border-radius: 4px;
+
+}
+.get-content ul li a i{
+	font-size: 16px;
+}
+.get-content p{
+	
+}
+.get-content input{
+	background: #666666;
+	color: #fff!important;
+	border: none;
+	border-radius: 0px;
+    padding: 20px;
+}
+.get-content input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+.get-content input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.get-content input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+.btn-subscribe{
+	border: 2px solid #666666;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn-subscribe:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+}
+/* Get In Touch End */
+
+/* Footer Start */
+footer{
+	background-color: #666666;
+	color: #fff;
+}
+footer p{
+	padding: 10px 0;
+	margin: 0;
+}
+/* Footer End */
