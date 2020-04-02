@@ -313,7 +313,9 @@ nav.navbar.navbar-expand-lg.navbar-light {
 	padding: 6px 8px;
 	color: #fff;
 	border-radius: 4px;
-
+}
+.get-content ul li a:hover{
+	border: 1px solid #cc3333;
 }
 .get-content ul li a i{
 	font-size: 16px;
