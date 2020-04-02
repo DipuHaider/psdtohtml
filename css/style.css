@@ -1,0 +1,282 @@
+/* Topbar Start */
+.top-header{
+	background-color: #f0f2f4;
+	padding: 10px 0;
+}
+.top-header ul{   
+    list-style: none;        
+    display: flex;       
+    justify-content: space-between;        
+    margin-bottom: 0;       
+}
+.top-header li{   
+    color: #333333;     
+}
+.top-header .fb{
+	color: #0099cc;
+	font-size: 24px;
+	height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+/* Topbar End */
+
+
+/* Topbar Start */
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 5px 0;
+}
+
+.navbar-light .navbar-nav .nav-link li{
+    color: #424242;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #424242;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dd2a24;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #dd2a24;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-menu{
+	background-color: #dd2a24;
+	color: #fff;
+	border: 2px solid #fff;
+}
+.btn-menu:hover{
+	background-color: #fff;
+	color: #dd2a24;
+	border: 2px solid #dd2a24;
+}
+/* Topbar End */
+
+/* Banner Start */
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hg{
+    min-height: 80vh;
+}
+
+.banner h1{ 
+    color: #fff;   
+    text-transform: capitalize;    
+    font-size: 45px;
+}
+
+.banner h3{      
+    color: #fff;       
+    text-transform: capitalize;       
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.btn-banner{
+    background: #ffcc66;
+    color: #fff;
+    border-color: #ffcc66;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 5px 20px; 
+}
+
+.btn-banner:hover{
+    background: #fff;
+    color: #ffcc66;
+    border-color: #ffcc66;
+}
+/* Banner End */
+
+/* About Us Start */
+.about_us{
+    margin: 50px 0;
+}
+
+.about_us h1{ 
+    text-transform: capitalize;    
+    color: #333333;
+    font-weight: 600;
+}
+
+.about_us h5{   
+    text-transform: capitalize;        
+    color: #333333;
+    font-weight: 400;
+}
+
+.about_us span{
+    height: 5px;
+    width: 50px;
+    background: #333333;
+    display: inline-block;
+}
+/* About Us End */
+
+/* Our Approach Start */
+.our_approach{
+	background-color: #f3f3f3;
+	padding: 50px 0;
+}
+
+.our_approach h1{ 
+    text-transform: capitalize;    
+    color: #333333;
+    font-weight: 600;
+}
+
+.our_approach h5{   
+    text-transform: capitalize;        
+    color: #333333;
+    font-weight: 400;
+}
+
+.our_approach span{
+    height: 5px;
+    width: 50px;
+    background: #333333;
+    display: inline-block;
+}
+.no-gutters {
+    background-color: #fff;
+}
+.appr_img{
+	position: relative;
+}
+.step{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-color: #cc3333;
+	color: #fff;
+	text-align: center;
+	top: 50%;
+	right: -12%;
+	transform: translateY(-50%);
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+.step h1{
+	margin: 0;
+	padding-top: 10px;
+	font-weight: 700;
+	color: #fff;
+}
+.step p{
+	text-transform: capitalize;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+.step_content h3{
+	text-transform: capitalize;
+}
+.step_content_right{
+	text-align: right;
+}
+.appr_img_right{
+	position: relative;
+}
+.step_right{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-color: #cc3333;
+	color: #fff;
+	text-align: center;
+	top: 50%;
+	left: -12%;
+	transform: translateY(-50%);
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+.px-10{
+	padding: 0 5em!important;
+}
+/* Our Approach End */
+
+/* Our Work Start */
+.our_work{
+	background-color: #cc3333;
+	padding: 50px 0;
+}
+
+.our_work h1{ 
+    text-transform: capitalize;    
+    color: #fff;
+    font-weight: 600;
+}
+
+.our_work h5{   
+    text-transform: capitalize;        
+    color: #fff;
+    font-weight: 400;
+}
+
+.our_work span{
+    height: 5px;
+    width: 50px;
+    background: #fff;
+    display: inline-block;
+}
+.work-content{
+	background-color: #ff6666;
+	text-align: center;
+	padding-top: 60px;
+}
+.work-content i{
+	color: #ff9999;
+}
+.work-content h3{
+	color: #fff;
+	text-transform: capitalize;
+}
+.work-content p{
+	color: #fff;
+}
+/* Our Work End */
+
+/* Contact Start */
+.contact{
+	background-color: #0099cc;
+	padding: 50px 0;
+}
+
+.contact h1{ 
+    text-transform: capitalize;    
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact h5{   
+    text-transform: capitalize;        
+    color: #fff;
+    font-weight: 400;
+}
+
+.contact i{
+	color: #fff;
+    font-size: 24px;
+}
+.contact-form{
+    color: #999999;
+}
+.contact-form p{
+   font-size: 14px;
+}
+/* Contact End */
